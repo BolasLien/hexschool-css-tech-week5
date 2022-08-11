@@ -14,17 +14,6 @@
   color: $gray-600;
 }
 
-.main-nav .list-group .list-group-item{
-  background-color: $gray-100;
-  border: none;
-}
-
-.main-nav .list-group .list-group-item.active{
-  border: none;
-  color: $success;
-  position: relative;
-}
-
 .main-nav .list-group .list-group-item.active::before{
   content: '';
   position: absolute;
